@@ -15,10 +15,10 @@ import {
 } from "lucide-react";
 import { supabase } from "@/lib/supabase";
 import AnimatedCounter from "@/components/UI/AnimatedCounter";
-import DailyDonationsManager from "./DailyDonationsManager";
-import MonthlyEmpowermentManager from "./MonthlyEmpowermentManager";
-import SuccessStoriesManager from "./SuccessStoriesManager";
-import TransparencyManager from "./TransparencyManager";
+// import DailyDonationsManager from "./DailyDonationsManager";
+// import MonthlyEmpowermentManager from "./MonthlyEmpowermentManager";
+// import SuccessStoriesManager from "./SuccessStoriesManager";
+// import TransparencyManager from "./TransparencyManager";
 // import FormGenerator from './FormGenerator'
 
 export default function AdminDashboard() {
