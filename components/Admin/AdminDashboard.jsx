@@ -102,18 +102,18 @@ export default function AdminDashboard() {
 
   const renderTabContent = () => {
     switch (activeTab) {
-      case "daily-donations":
-        return <DailyDonationsManager />;
-      case "empowerment":
-        return <MonthlyEmpowermentManager />;
-      case "success-stories":
-        return <SuccessStoriesManager />;
-      case "transparency":
-        return <TransparencyManager />;
+      // case "daily-donations":
+      //   return <DailyDonationsManager />;
+      // case "empowerment":
+      //   return <MonthlyEmpowermentManager />;
+      // case "success-stories":
+      //   return <SuccessStoriesManager />;
+      // case "transparency":
+      //   return <TransparencyManager />;
       // case "forms":
       //   return <FormGenerator />;
-      case "settings":
-        return <AdminSettings />;
+      // case "settings":
+      //   return <AdminSettings />;
       default:
         return (
           <OverviewTab
